@@ -1,0 +1,83 @@
+.bodybg {
+    background: black;
+
+}
+
+.home {
+    background: whitesmoke;
+    background: url(https://i.pinimg.com/originals/e6/14/2e/e6142eacd3e73a4075e959a611e94819.jpg);
+    height: fit-content;
+
+}
+
+.navbarmargin {
+    margin-top: 20px;
+    padding-top: 10px;
+
+}
+
+.blockquotqcolor {
+    color: whitesmoke;
+}
+
+.footer {
+    background: whitesmoke;
+}
+
+.fontcolor {
+    margin-top: 20px;
+    color: whitesmoke;
+
+}
+
+.abtus {
+    height: 140px;
+}
+
+.badges-lable {
+
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.author {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.ourservice {
+
+    margin-top: 10px;
+    height: 200px;
+}
+
+.terms {
+    margin-top: 10px;
+}
+
+pre {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.anc {
+    color: whitesmoke;
+}
+
+.privacy {
+    background: whitesmoke;
+    margin-top: 10px;
+    border: 25px;
+}
+
+
+.code {
+    color: tomato;
+}
+
+.footer {
+    margin-top: 10px;
+}
