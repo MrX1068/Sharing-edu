@@ -13,7 +13,7 @@
 
 <body>
     <div class="container-fluid bodybg">
-        <nav class="navbar navbar-default navbarmargin">
+        <nav class="navbar navhead navbarmargin">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarhead">
@@ -21,59 +21,59 @@
                     </button>
                     <div class="navbar-brand">LOGO</div>
                 </div>
-                <div class="collapse navbar-collapse" id="navbarhead">
-                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#Home">Home</a></li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
-                            Sevices <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#BookPdf">book pdfs</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#CourseVid">course videos</a></li>
-                            <li class="divider"></li>
-                        </ul>
-                    </li>
-                    <li><a href="#About">About</a></li>
-                </ul>
-                <ul class="navbar-nav nav navbar-right">
-                    <li><a href="#Privacy">Privacy-Policy</a></li>
-                    <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
-                            More
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#Contact">Contact us</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#GoogleForm">google form</a></li>
-                            <li class="divider"></li>
-                        </ul>
-                    </li>
-                    </a></li>
-                    <li>
-                        <form class="navbar-form" role="search">
-                            <div class="form-group">
-                                <input class="form-control" type="search" name="" placeholder="Search" id="" />
-                            </div>
-                            <button type="button" class="btn btn-sm btn-success" role="button">
-                                Search <span class="glyphicon glyphicon-search"></span>
-                            </button>
-                        </form>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse text-primary" id="navbarhead">
+                    <ul class="nav navbar-nav navbarlist">
+                        <li class="active"><a href="#Home">Home</a></li>
+                        <li class="dropdown dropdowncolor ">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                Sevices <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdowncolor text-primary">
+                                <li><a href="#BookPdf">book pdfs</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#CourseVid">course videos</a></li>
+                                <li class="divider"></li>
+                            </ul>
+                        </li>
+                        <li><a href="#About">About</a></li>
+                    </ul>
+                    <ul class="navbar-nav nav navbar-right">
+                        <li><a href="#Privacy">Privacy-Policy</a></li>
+                        <li class="dropdown dropdowncolor">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                More
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdowncolor in">
+                                <li><a href="#Contact">Contact us</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#GoogleForm">google form</a></li>
+                                <li class="divider"></li>
+                            </ul>
+                        </li>
+                        </a></li>
+                        <li>
+                            <form class="navbar-form" role="search">
+                                <div class="form-group">
+                                    <input class="form-control" type="search" name="" placeholder="Search" id="" />
+                                </div>
+                                <button type="button" class="btn btn-sm btn-success" role="button">
+                                    Search <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-     </nav>
-        <div class="container home" id="Home">
+        </nav>
+        <div class="container-fluid home" id="Home">
             <div class="jumbotron home">
                 <h1 class="text-center fontcolor">Sharing carrying</h1>
                 <hr>
                 <p class="text-center">by mr x</p>
             </div>
-            <blockquote class="blockquote-reverse blockquotqcolor">
-                <h3>Sharing !</h3>
+            <blockquote class="blockquote-reverse blockquotecolor">
+                <h3 id="orangeredcolor">Sharing !</h3>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Repellendus accusamus quae ut nemo dicta officia expedita ducimus ex
@@ -85,49 +85,60 @@
         </div>
         <div class="container ourservice" id="Services">
             <h2 class="text-center fontcolor">Our Services</h2>
-            <div class="badges-lable text-center">
-                <button class="btn btn-primary" id="BookPdf">
-                    book Pdf's <span class="label label-danger">New !</span>
-                </button>
-                <button class="btn btn-primary" id="CourseVid" >
-                    Course Video's <span class="label label-danger">New !</span>
-                </button>
+            <div class="row" id="About">
+                <div class="col-lg-6 text-center">
+                    <button class="btn btn-info" id="BookPdf">
+                        book Pdf's <span class="label label-danger">New !</span>
+                    </button>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <button class="btn btn-info" id="CourseVid">
+                        Course Video's <span class="label label-danger">New !</span>
+                    </button>
+                </div>
             </div>
         </div>
         <div class="container privacy" id="Privacy">
             <h4 class="text-center text-success terms">Privacy-Terms-Conditions</h4>
             <hr>
-            <pre class="text-center">we dont collect any of your data . we just providing this services for <code class="code"><abbr
-                        title="EDUCATION Purpose Only">EDUCATION</abbr></code> Purpose only . 
-    We don't Track your phone also dont collect your <code>(Passwords , data , Location)</code> we dont use any cookie's.
-    Just providing this services for EDUCATION purpose only .
-    
-    <kbd>Use this Service to grow up your skilss .</kbd>
-    <footer>Sharing ! carrying !</footer>
-    <button class="btn btn-info thankyou">
-        Thank You <span class="label label-warning">Thank you !</span>
-    
-         </pre>
+            <p class="text-center">
+                we dont collect any of your data . we just providing this services for <code class=" code"><abbr
+                        title="EDUCATION Purpose Only">EDUCATION</abbr></code> Purpose only . <br><br>
+                We don't Track your phone also dont collect your <code>(Passwords , data , Location)</code> we dont use
+                any cookie's.
+                Just providing this services for EDUCATION purpose only .
+                <br><br>
+                <kbd>Use this Service to grow up your skilss.</kbd>
+                <br><br>
+                Sharing ! carrying !
+                <br><br>
+                Thank You <span class="label label-warning">Thank you !</span>
+            </p>
         </div>
-        <div class="container fontcolor abtus">
-            <h3 class="text-center">Abouts us</h3>
-            <div class="author" id="About">
-                <div>
-                    <h4>Author name</h4>
+        <div class="container-fluid fontcolor abtus">
+            <h3 class="text-center" id="orangeredcolor">Abouts us</h3>
+            <div class="row" id="About">
+                <div class="col-sm-6 text-center">
+                    <div class="contactimage"><img
+                            src="https://www.pngjoy.com/pngl/195/3846132_contact-icons-contact-us-icon-png-white-transparent.png"
+                            class="img-responsive"></div>
+                    <h4>Name</h4>
                     <p>about</p>
                 </div>
-                <div>
-                    <h4>Author name</h4>
+                <div class=" col-sm-6 text-center">
+                    <div class="contactimage">
+                        <img src="https://www.pngjoy.com/pngl/195/3846132_contact-icons-contact-us-icon-png-white-transparent.png"
+                            class="img-responsive"></div>
+                    <h4>Name</h4>
                     <p>about</p>
                 </div>
             </div>
-        </div>
-        <div class="footer text-center">
-            <ul class="breadcrumb">
-                <li><a href="#" id="Contact">Contact us</a></li>
-                <li><a href="#" id="GoogleForm">Google Forms</a></li>
-            </ul>
-        </div>
+            <footer class="text-center">
+                <ul class="breadcrumb">
+                    <li><a href="#" id="Contact">Contact us</a></li>
+                    <li><a href="#" id="GoogleForm">Google Forms</a></li>
+                </ul>
+            </footer>
 </body>
 
 </html>

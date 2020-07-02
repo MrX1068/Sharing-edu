@@ -1,90 +1,123 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: "Nunito Sans", sans-serif;
-    background: black;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: whitesmoke;
+}
+
+.navhead {
+  background-color: turquoise;
+  font-weight: bolder;
+}
+
+.navbar-collapse li a {
+  color: black;
 }
 
 .home {
-    background: whitesmoke;
-    background: url(https://i.pinimg.com/originals/e6/14/2e/e6142eacd3e73a4075e959a611e94819.jpg);
-    height: fit-content;
-
+  background-color: black;
+}
+.navbar-brand {
+  color: orangered;
+}
+.dropdowncolor {
+  background-color: gold;
 }
 
 .navbarmargin {
-    margin-top: 20px;
-    padding-top: 10px;
-
+  margin-top: 20px;
+  padding-top: 10px;
 }
 
-.blockquotqcolor {
-    color: whitesmoke;
+.glyphicon-fire {
+  background: yellow;
+}
+.jumbotron {
+  background: orangered;
+  margin-top: 10px;
+  color: white;
 }
 
-.footer {
-    background: whitesmoke;
+.blockquotecolor p,
+h3,
+footer {
+  font-weight: bold;
+  color: white;
 }
-
 .fontcolor {
-    margin-top: 20px;
-    color: whitesmoke;
-
+  margin-top: 20px;
 }
 
 .abtus {
-    height: 140px;
+  background: url(https://i1.faceprep.in/ProGrad/portfolio-background.svg);
+  background-color: black;
+  color: white;
 }
 
+.row img {
+  height: 50px;
+  border-radius: 25px;
+}
+
+.contactimage {
+  display: flex;
+  justify-content: center;
+}
 .badges-lable {
-
-    margin-top: 60px;
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-}
-
-.author {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+  margin-top: 60px;
 }
 
 .ourservice {
-
-    margin-top: 10px;
-    height: 200px;
+  margin-top: 10px;
+  height: 200px;
 }
 
 .terms {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+.row {
+  margin-top: 10px;
+}
+.row button {
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
-pre {
-    margin-bottom: 10px;
-    padding: 10px;
+#orangeredcolor {
+  color: orangered;
 }
 
-.anc {
-    color: whitesmoke;
+.privacy p {
+  background: whitesmoke;
+  padding: 10px;
+  border: 1px solid black;
 }
-
-.privacy {
-    background: whitesmoke;
-    margin-top: 10px;
-    border: 25px;
-}
-
 
 .code {
-    color: tomato;
+  color: tomato;
 }
 
-.footer {
-    margin-top: 10px;
+footer {
+  background-color: black;
+  height: 40px;
+  align-items: center;
+  color: black;
+  padding: 5px;
+}
+.breadcrumb {
+  background: white;
+  padding: 5px;
+  color: black;
+}
+.breadcrumb li a {
+  color: black;
+  font-weight: lighter;
+}
+.breadcrumb li a:hover {
+  color: orangered;
 }
