@@ -151,6 +151,11 @@ footer {
   margin-top: 10px;
 }
 
+.carousel-inner>.item>img {
+  width: 90%;
+  margin: auto;
+}
+
 .row {
   margin-top: 10px;
 }
