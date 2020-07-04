@@ -37,6 +37,14 @@ button:hover {
   color: black;
 }
 
+#LOGO {
+  width: 90px;
+  height: 90px;
+}
+
+
+
+
 .form-group,
 .btn-success {
   margin-left: 20px;
@@ -55,13 +63,12 @@ li:hover {
 }
 
 .home {
-  border-radius: 10px;
-  background: url(https://wallpapercave.com/wp/wp2003356.jpg) no-repeat center;
   background-size: 100% 100%;
-}
-
-.navbar-brand {
-  color: orangered;
+  animation-name: carousel;
+  animation-duration: 20s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  border-radius: 5px;
 }
 
 .dropdowncolor {
@@ -72,12 +79,13 @@ li:hover {
 }
 
 .navbarmargin {
-  margin-top: 20px;
+  margin-top: 5px;
   padding-top: 10px;
 }
 
 .glyphicon-menu-hamburger {
   background: linear-gradient(to right, #4e4376, #2b5876);
+
 }
 
 .jmb {
@@ -89,13 +97,20 @@ li:hover {
 footer {
   font-weight: bolder;
   color: whitesmoke;
+
 }
 
-blockquote .quotes {
-  font-weight: bolder;
-  font-size: larger;
+blockquote .quotes .row p {
+  font-size: normal;
   color: whitesmoke;
+
 }
+
+.blockquote-reverse {
+  text-align: center;
+
+}
+
 #jmbcolor {
   color: #ff0080;
   font-weight: bolder;
@@ -127,23 +142,40 @@ blockquote .quotes {
 
 .ourservice {
   margin-top: 10px;
-  background: url(https://wallpapercave.com/wp/wp3194653.jpg) no-repeat center
-    center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   padding: 10px;
+
+}
+
+.ourservice .row {
+  color: black;
+  font-size: bold;
+}
+
+
+.flexbox ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 10px;
+}
+
+
+.test123 div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.test123 img h4 {
+  padding: 20px;
 }
 
 .terms {
   margin-top: 20px;
 }
 
-.carousel-inner > .item > img {
-  width: 90%;
-  margin: auto;
-}
+
 
 .row {
   margin-top: 20px;
@@ -154,9 +186,12 @@ blockquote .quotes {
   margin-bottom: 20px;
 }
 
+#orangeredcolor {
+  margin-top: 50px;
+}
+
 #orangeredcolor,
-#About1,
-.ourservice {
+#About1 {
   color: orangered;
 }
 
@@ -216,7 +251,36 @@ blockquote .quotes {
     transform: scale(1.2);
   }
 
+
   100% {
     transform: scale(1);
   }
+}
+
+@keyframes carousel {
+  0% {
+    background-image: url("https://images.idgesg.net/images/article/2019/05/java_binary_code_gears_programming_coding_development_by_nevarpp_gettyimages-688718788_2400x1600-100795799-large.jpg");
+  }
+
+  25% {
+    background-image: url("https://www.esilo.com/wp-content/uploads/media-library/hooded-hacker-on-comupter-digital-brain-potential-blog-post-e1573366318920.jpg");
+  }
+
+  50% {
+    background-image: url("https://previews.123rf.com/images/tashatuvango/tashatuvango1401/tashatuvango140100035/25049944-web-development-blue-color-text-on-dark-digital-background-.jpg");
+  }
+
+  75% {
+    background-image: url("https://www.coe.int/documents/365513/10877703/speech-Ai-Helsinki-2019-870x489.jpg/15893919-49cb-018d-e6db-2603133098ba?t=1551174277000");
+  }
+
+  100% {
+    background-image: url("https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/introduction-to-machine-learning_social.png?1510178550");
+  }
+}
+
+.qts {
+  margin-top: 400px;
+  width: 100%;
+  height: 100%;
 }
