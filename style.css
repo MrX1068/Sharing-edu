@@ -7,7 +7,7 @@
 
 body {
   font-family: "Nunito Sans", sans-serif;
-  background-image: linear-gradient(to right, #D3CCE3, #E9E4F0);
+  background-image: linear-gradient(to right, #d3cce3, #e9e4f0);
 }
 
 .navhead {
@@ -15,13 +15,8 @@ body {
   border-radius: 20px;
   background: linear-gradient(to right, #c31432, #240b36);
   background: #2b5876;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4e4376, #2b5876);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 
 button {
@@ -42,7 +37,6 @@ button:hover {
   color: black;
 }
 
-
 .form-group,
 .btn-success {
   margin-left: 20px;
@@ -62,27 +56,19 @@ li:hover {
 
 .home {
   border-radius: 10px;
-  background: url(https://wallpapercave.com/wp/wp3474489.jpg) no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(https://wallpapercave.com/wp/wp2003356.jpg) no-repeat center;
+  background-size: 100% 100%;
 }
-
 
 .navbar-brand {
   color: orangered;
 }
 
 .dropdowncolor {
-
   border-radius: 25px;
   background: #2b5876;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4e4376, #2b5876);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbarmargin {
@@ -97,19 +83,20 @@ li:hover {
 .jmb {
   margin-top: 10px;
   padding: 20px;
-  border: 1px solid black;
-  border-radius: 25px;
 }
 
-.blockquotecolor p,
-h3,
+.blockquotecolor h3,
 footer {
   font-weight: bolder;
-  color: black;
+  color: whitesmoke;
 }
 
+blockquote .quotes {
+  font-weight: bolder;
+  font-size: larger;
+  color: whitesmoke;
+}
 #jmbcolor {
-
   color: #ff0080;
   font-weight: bolder;
 }
@@ -140,24 +127,26 @@ footer {
 
 .ourservice {
   margin-top: 10px;
-  background: url(https://wallpapercave.com/wp/wp3194653.jpg) no-repeat center center fixed;
+  background: url(https://wallpapercave.com/wp/wp3194653.jpg) no-repeat center
+    center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding: 10px;
 }
 
 .terms {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
-.carousel-inner>.item>img {
+.carousel-inner > .item > img {
   width: 90%;
   margin: auto;
 }
 
 .row {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .row button {
@@ -174,7 +163,7 @@ footer {
 .privacy p {
   background: whitesmoke;
   padding: 10px;
-  border: 1px solid black;
+  border: 2px solid #ff0084;
 }
 
 .code {
@@ -228,6 +217,6 @@ footer {
   }
 
   100% {
-    transform: scale(1.0);
+    transform: scale(1);
   }
 }
