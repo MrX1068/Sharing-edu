@@ -152,23 +152,19 @@ blockquote .quotes .row p {
 }
 
 
-.flexbox ul {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  padding: 10px;
-}
 
 
 .test123 div {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
 
 }
 
 .test123 img h4 {
-  padding: 20px;
+  padding: 30px;
 }
 
 .terms {
